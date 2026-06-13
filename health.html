@@ -638,7 +638,7 @@ main {
   (function () {
     const KEY = 'whoop_tokens_v1';
     const CLIENT_ID = 'db79c9c9-e084-414e-89e3-654c7eea8c85';
-    const REDIRECT  = window.location.origin + '/api/whoop-callback';
+    const REDIRECT  = 'https://sant-eight.vercel.app/api/whoop-callback';
     const SCOPES    = 'read:recovery read:sleep read:workout read:cycles read:profile read:body_measurement offline';
 
     function load() { try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; } }
